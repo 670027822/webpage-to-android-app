@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mywebView=(WebView) findViewById(R.id.webview);
         mywebView.setWebViewClient(new WebViewClient());
-        mywebView.loadUrl("file:///android_asset/www/index.html");
+        mywebView.loadUrl("https://tv.aizhijia.top/naozhong.html");
         WebSettings webSettings=mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
