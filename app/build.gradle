@@ -3,15 +3,16 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
-    
+    namespace 'com.e.webnaozhong'
+    compileSdk 33
+
     defaultConfig {
         applicationId "com.e.webnaozhong"
-        minSdkVersion 21
-        targetSdkVersion 33
+        minSdk 21
+        targetSdk 33
         versionCode 1
         versionName "1.0"
-        
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
