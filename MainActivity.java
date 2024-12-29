@@ -1,4 +1,4 @@
-package com.e.(YOU_APP_NAME);
+package com.e.(webnaozhong);
 
 import androidx.appcompat.app.AppCompatActivity;
 
